@@ -57,7 +57,9 @@ For this project we performed machine learning techniques for three different va
 ## Key Findings
 
 > For our numerical data, we were able to improve our score by fine tuning the hyperparameters
+
 > Converting the target variable to categorical data and narrowing the focus to a specific state (Florida) both contributed to improved machine learning model performance.
+
 > These strategies demonstrated the importance of data transformation and segmentation in achieving better results.
 
 ## Other URLs
