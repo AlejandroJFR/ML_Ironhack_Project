@@ -21,9 +21,9 @@
 
 For this project we performed machine learning techniques for three different variations of the same dataset:
 
-1. We used only the numerical data to evaluate it using various regression models.
-2. We converted the target (price) into categorical data by assigning labels (low, medium and high) to price ranges; we then evaluated it using classification models.
-3. Using the previous data, we only focused only on the state of Florida to evaluate it using classification models.
+1. We initially evaluated the dataset using various regression models, focusing on numerical data. 
+2. The target variable, price, was converted into categorical data by assigning labels (low, medium, and high) to different price ranges. This transformation allowed us to analyze the data using classification models.
+3. We continued to improve our analysis using classification models by only focusing on the state of Florida.
 
 ## Machine Learning Techniques
 
@@ -56,7 +56,9 @@ For this project we performed machine learning techniques for three different va
 
 ## Key Findings
 
-> Creating ranges for our target 
+> For our numerical data, we were able to improve our score by fine tuning the hyperparameters
+> Converting the target variable to categorical data and narrowing the focus to a specific state (Florida) both contributed to improved machine learning model performance.
+> These strategies demonstrated the importance of data transformation and segmentation in achieving better results.
 
 ## Other URLs
 
