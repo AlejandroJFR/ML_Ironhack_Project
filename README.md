@@ -27,4 +27,5 @@
 ## Other URLs
 
 [Presentation](https://docs.google.com/presentation/d/1_RpFE-3Vs1cLMoL0Wl2Is1rFOyco95_v2BUSNBoUGUo/edit#slide=id.g292a9bb486b_1_114)
+
 [Trello](https://trello.com/b/6oKWCRzJ/machine-learning-project)
