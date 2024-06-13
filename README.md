@@ -12,17 +12,51 @@
 
 [Apartment for Rent Classified](https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified)
 
+[OpenStreetMap API](https://www.openstreetmap.org/#map=9/18.2235/-66.5927)
+
 > Datasets after cleaning and selecting:
 
 [Clean Data with Outliers](apartment_data.csv)
 [Clean Data without Outliers](filtered_apartment_data.csv)
 
+For this project we performed machine learning techniques for three different variations of the same dataset:
+
+1. We used only the numerical data to evaluate it using various regression models.
+2. We converted the target (price) into categorical data by assigning labels (low, medium and high) to price ranges; we then evaluated it using classification models.
+3. Using the previous data, we only focused only on the state of Florida to evaluate it using classification models.
+
 ## Machine Learning Techniques
 
->
+> Feature Engineering
+  
+  - Encoding with GetDummies for categorical data
+
+> Feature Scaling
+
+  - Normalized numerical data with MinMaxScaler
+
+> Feature Selection
+
+  - Created a correlation matrix to understand the relationship between the features and the target
+  - Performed a TrainTestSplit 
+
+> Machine Learning Models 
+
+  - KNN Regressor and Classifier
+  - Linear Regression
+  - Baggining and Pasting
+  - Random Forest
+  - AdaBoost
+  - Gradient Boosting
+  - Decision Tree
+
+> Hyperparameter Tuning
+
+  - For the KNN Regressor model (which had the best score for the numerical data evaluation) we fine tuned it's hyperparameters using Grid Search to further improve our score
 
 ## Key Findings
 
+> Creating ranges for our target 
 
 ## Other URLs
 
